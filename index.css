@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    margin: 0 auto;
+    background-color: violet;
+    width: 30%;
+    height: 600px;
+    margin-top: 56px;
+}
+.calculator p{
+    padding-top: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.calculator input{
+    width: 87%;
+    height: 42px;
+      font-size: 20px;
+    color: red;
+    margin: 36px;
+}
+.calculator table{
+    margin: 0 auto;
+}
+button {
+    background-color: white;
+    height: 10vh;
+    width: 85px;
+    margin: 0.25vmax;
+    font-size: 2rem;
+}
+
+
+@media screen and (max-width:1200px) {
+    .container{
+        width: 100%;
+    }
+    
+}
